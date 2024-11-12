@@ -1,0 +1,43 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+
+  padding-inline: 1rem;
+  padding-block: 1rem;
+
+  max-inline-size: 1200px;
+  margin-inline: auto;
+}
+
+.header {
+  position: sticky;
+  top: 1rem;
+  z-index: 100;
+}
+
+.navbar {
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(5px);
+  background-color: rgba(231, 231, 231, 0.73);
+  border-radius: 18px;
+  block-size: 64px;
+
+  display: flex;
+  align-items: center;
+  padding-inline: 2rem;
+}
+
+.navbar > *:first-child {
+  margin-inline-end: auto;
+}
+
+picture {
+  inline-size: 32px;
+  block-size: 32px;
+}
+
+.nav__enlaces {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

@@ -1,0 +1,47 @@
+.funcionalidad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  .funcionalidadDescripcion {
+    max-inline-size: 40ch;
+  }
+}
+
+.imgFuncionalidad {
+  min-inline-size: 400px;
+  block-size: 400px;
+  border-radius: 24px;
+  margin: 0;
+
+  display: flex;
+  flex: 0;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fbf6fe;
+
+  img {
+    inline-size: 50%;
+  }
+}
+
+.imgFuncionalidad.segunda {
+  background-color: #fcfcea;
+}
+
+.imgFuncionalidad.tercera {
+  background-color: #ecfdf4;
+}
+
+.detalle {
+  background-color: #d2cbcb50;
+  border-radius: 32px;
+  font-weight: 500;
+
+  inline-size: max-content;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+}

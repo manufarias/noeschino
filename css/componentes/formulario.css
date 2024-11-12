@@ -1,0 +1,61 @@
+.formulario {
+  background-color: #09372b;
+  color: #fff;
+  padding-block: 4rem;
+  padding-inline: 1rem;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.texto__contacto {
+  margin: 0;
+  font-size: var(--step-3);
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form {
+  max-inline-size: 800px;
+  margin-inline: auto;
+}
+
+.descargar,
+.form input,
+select {
+  display: block;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  color: #09372b;
+  font-weight: 600;
+  width: 100%;
+  &:focus {
+    outline: 3px solid goldenrod;
+  }
+}
+
+.descargar {
+  cursor: pointer;
+  box-shadow: 4px 4px 0px #041812;
+  transition: transform 0.1s ease-out;
+
+  &:hover {
+    background-color: #0b4735;
+    color: #fff;
+    transform: translateY(5px);
+  }
+
+  &:active {
+    background-color: #07281e;
+  }
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+option {
+  background-color: #e7f0fe !important;
+}

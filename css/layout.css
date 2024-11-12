@@ -1,0 +1,11 @@
+.main > * + * {
+  margin-block-start: 8rem;
+}
+
+.main > * > * {
+  margin-block-start: 4rem;
+}
+
+.main > * > * * {
+  margin-block-start: 1rem;
+}

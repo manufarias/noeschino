@@ -1,0 +1,40 @@
+.footer {
+  padding: 1rem;
+  max-inline-size: 1200px;
+  margin-inline: auto;
+  margin-block: 2rem;
+}
+
+.derechos {
+  font-weight: 600;
+}
+
+.footer__contenido,
+.footer__contacto {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__contenido {
+  justify-content: space-between;
+}
+
+.footer__contenido > * {
+  flex-basis: 400px;
+}
+
+.footer__contacto {
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__contenido {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .footer__contenido > * {
+    flex: 1;
+  }
+}
