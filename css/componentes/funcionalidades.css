@@ -26,8 +26,8 @@
   border-radius: 32px;
   font-weight: 500;
 
-  inline-size: max-content;
-  padding-inline: 1rem;
+  max-inline-size: max-content;
+  padding-inline: 2rem;
   padding-block: 1rem;
   font-size: var(--step--1);
 }
