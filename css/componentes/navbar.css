@@ -42,3 +42,7 @@ picture {
   align-items: center;
   gap: 1rem;
 }
+
+.enlace a {
+  text-decoration: none;
+}
